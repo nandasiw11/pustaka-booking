@@ -39,7 +39,7 @@
     </li>
     <li class="nav-item <?php if ($this->uri->segment(1) == 'buku' xor $this->uri->segment(2) == 'kategori') {
                             echo "active";
-                        } ?>"">
+                        } ?>">
         <a class=" nav-link pb-0" href="<?= base_url('buku'); ?>">
         <i class="fa fa-fw fa-book"></i>
         <span>Data Buku</span>
