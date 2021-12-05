@@ -1,3 +1,4 @@
+<!-- Begin Page Content -->
 <div class="container-fluid">
     <?= $this->session->flashdata('pesan'); ?>
     <div class="row">
@@ -16,10 +17,10 @@
                     </div>
                     <div class="form-group">
                         <select name="id_kategori" class="form-control form-control-user">
-                            <option value="<?= $id; ?>" selected="selected"><?= $k; ?></option>
+                            <option value="<?= $id; ?>"selected="selected"><?= $k; ?></option>
                             <?php
                             foreach ($kategori as $k) { ?>
-                                <option value="<?= $k['id']; ?>"><?= $k['kategori']; ?></option>
+                            <option value="<?= $k['id']; ?>"><?= $k['kategori'];?></option>
                             <?php } ?>
                         </select>
                     </div>
